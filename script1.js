@@ -15,10 +15,9 @@ $(document).ready(function(){
     var factorsOfFirstNumber = [];
     var factorsOfSecondNumber = [];
     var factorsOfThirdNumber = [];
-    var outCome = [];
     var listCountOne = 0;
     var listCounttwo = 0;
- 
+    var outCome = []
     
 
     for (i = -100; i <= -1; i++) {
@@ -56,14 +55,17 @@ $(document).ready(function(){
 
     var outComeNoDup = removeDups(outCome);
 
-    $("#outCome7").text(outCome);
+ 
 
+ 
+    
   
 
+    var outCome1 = outCome[0]
+    var outCome2 = outCome[1]
 
-
-
-
+    $("#outCome1").text(outCome1);
+    $("#outCome2").text(outCome2);
 
     
   });

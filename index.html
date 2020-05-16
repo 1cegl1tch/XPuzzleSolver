@@ -4,7 +4,108 @@
 <head>
   <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="script1.js"></script>
+<style>
 
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #FFFFFF;
+}
+
+.topnav a {
+  float: left;
+  color: rgb(94, 94, 94);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #D2D2D2;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #000000;
+  color: white;
+}
+
+.input1 {
+position: absolute;
+height: 0%;
+margin: 0;
+left: 45%;
+top: 410px;
+}
+
+
+.input2 {
+position: absolute;
+height: 0%;
+margin: 0;
+left: 54.3%;
+top: 410px;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+.container .btn {
+  position: relative;
+  top: 50%;
+  left: 30%;
+  
+
+  background-color: rgb(54, 54, 54);
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 15px;
+  
+}
+
+.container .btn:hover {
+  background-color: black;
+}
+
+input[type=number] {
+  width: 20%;
+  padding: 10px 20px;
+  margin: 15px 0;
+  box-sizing: border-box;
+}
+
+.button {
+  background-color: rgb(82, 82, 82); /* Green */
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+</style>
 
 
 </head>
@@ -12,18 +113,66 @@
 
 <body>
 
-<h2 class='test'>Algebra X puzzle Solver</h2>
+<div class="topnav">
+  <a class="active" href="xPuzzle">X-Puzzle</a>
+  <a href="#news">WIP</a>
+  <a href="#contact">WIP</a>
+  <a href="#about">WIP</a>
+</div>
 
-<p id=p1>Alpha 1.0.1</p>
 
-Number that is the sum of the outcome: <input type="number" name="First Number" id = "firNum">
-<br>
-Number that is the product of the outcome: <input type="number" name="Second Number" id = "secNum">
-<br>
+<div style = "text-align:center">
+  <h2 class='test' style = "text-align:center">Algebra X puzzle Solver</h2>
+</div>
 
-<p id=outCome7></p>
 
-<button>COMPUTE</button>
+<div style = "text-align:center">
+  <p id=p1>Alpha 1.1.1</p>
+</div>
+
+<div style = "text-align:center">
+  <form>
+    <label for="fname">Number that is the sum of the outcome</label>
+    <br>
+    <input type="number" name="First Number" id = "firNum">  
+    <br>
+    <label for="lname">Number that is the product of the outcome</label>
+    <br>
+    <input type="number" name="Second Number" id = "secNum">
+  </form>
+  
+</div>
+
+
+
+
+
+<p>                                                         </p>
+
+
+<div style = "text-align:center">
+  <img src="xpuzzle.png" width = "195" height = "195">
+</div>
+
+
+<div class = "input1">
+  <p id=outCome1></p>
+</div>
+<div class = 'input2'>
+  <p id=outCome2></p>
+</div>
+
+
+<div style = "text-align:center">
+  <button class = "button">COMPUTE</button>
+</div>
+
+
+
+
+
+
+
 
 </body>
 </html>
