@@ -76,9 +76,9 @@ body {
   }
   
   input[type=number] {
-    width: 20%;
-    padding: 10px 20px;
-    margin: 15px 0;
+    width: 30%;
+    padding: 10px 5px;
+    margin: 25px 0;
     box-sizing: border-box;
   }
   
@@ -103,18 +103,18 @@ body {
   
   .left {
     position: absolute;
-    top: 50%;
+    top: 37%;
     left: 150px;
-    font-size: 8vw;
+    font-size: 7vw;
   }
   
   .right {
     position: absolute;
-    top: 42%;
+    top: 37%;
     right: 150px;
-    font-size: 8vw;
+    font-size: 7vw;
   }
 
   .setpadding {
-    padding: 20%;
+    padding: 0% 20% 0% 20%;
   }
