@@ -104,15 +104,15 @@ body {
   .left {
     position: absolute;
     top: 37%;
-    left: 150px;
-    font-size: 7vw;
+    left: 30%;
+    font-size: 7vh;
   }
   
   .right {
     position: absolute;
     top: 37%;
-    right: 150px;
-    font-size: 7vw;
+    right: 30%;
+    font-size: 7vh;
   }
 
   .setpadding {
