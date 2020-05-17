@@ -2,35 +2,15 @@
 
 $(document).ready(function(){
 
-  var numbOneTemp = $("#firNum").val(); //makes numbOne the first input
-  var numbTwoTemp = $("#secNum").val();
-  var firstNumber = parseInt(numbOneTemp);
-  var secondNumber = parseInt(numbTwoTemp);
-
   
-
-
-  var numbOneTemp = $("#firNum").val();
-  var firstNumber = parseInt(numbOneTemp);
-  for (i = 1; i <= 100; i++) {
-      if (firstNumber > 0) {
-          $("#inputOne").text(firstNumber);
-      }
-
-
-      else {
-          i = i + 1
-      }
-
-  }
-    
-
-
 
 
 
   $("#button").click(function(){ //if you click on th button it does what ever you tell it to do bellow
-
+    var numbOneTemp = $("#firNum").val(); //makes numbOne the first input
+    var numbTwoTemp = $("#secNum").val();
+    var firstNumber = parseInt(numbOneTemp);
+    var secondNumber = parseInt(numbTwoTemp);
     var firstMaxFactor = firstNumber + 5;
     var secondMaxFactor = secondNumber + 5;
     var listOfNumbers = [];

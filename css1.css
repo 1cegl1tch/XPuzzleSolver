@@ -103,16 +103,35 @@ body {
   
   .left {
     position: absolute;
-    top: 37%;
+    top: 36.5%;
     left: 30%;
-    font-size: 7vh;
+    font-size: calc(45px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+    line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
   }
   
   .right {
     position: absolute;
-    top: 37%;
+    top: 36.5%;
     right: 30%;
-    font-size: 7vh;
+    font-size: calc(45px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+    line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
+  }
+
+  .bottom {
+    position: absolute;
+    bottom: 8%;
+    right: 45.5%;
+    font-size: calc(45px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+    line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
+  }
+
+  .top {
+    position: absolute;
+    top: 8%;
+    right: 45.5%;
+    font-size: calc(45px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+    line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
+
   }
 
   .setpadding {

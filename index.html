@@ -33,7 +33,7 @@
 <body>
 
   <nav class="navbar navbar-expand-xl bg-dark navbar-dark">
-    <a class="navbar-brand" href="index.html">Algebra X Puzzle Solver</a>
+    <a class="navbar-brand" href="index.html">Home - Algebra X Puzzle Solver</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -65,7 +65,7 @@
         <div class="form-group">
           <label for="usr">Number that is the sum of the outcome</label>
           <br>
-          <input type="number" class="form-controll" name="First Number" id="firNum">
+          <input type="number" class="form-controll" name="First Number" id="firNum" onkeyup="getVal()">
           
             
           
@@ -75,10 +75,10 @@
         <div class="form-group">
           <label for="pwd">Number that is the product of the outcome</label>
           <br>
-          <input type="number" class="form-controll" name="Second Number" id="secNum">
+          <input type="number" class="form-controll" name="Second Number" id="secNum" onkeyup="getVal1()">
           <br>
         </div>
-        <p>Test:</p><p id = "inputOne"></p>
+        
       </div>
     </div>
 
@@ -95,6 +95,8 @@
           <img src="xpuzzle.png" width="100%" height="auto" class = "setpadding">
           <div class="left" id=outCome1></div>
           <div class="right" id=outCome2></div>
+          <div id="icard" class = "bottom"></div>
+          <div id="iCard2" class = "top"></div>
         </div>
 
 
