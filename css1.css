@@ -105,12 +105,16 @@ body {
     position: absolute;
     top: 50%;
     left: 150px;
-    font-size: 30px;
+    font-size: 8vw;
   }
   
   .right {
     position: absolute;
-    top: 50%;
+    top: 42%;
     right: 150px;
-    font-size: 30px;
+    font-size: 8vw;
+  }
+
+  .setpadding {
+    padding: 20%;
   }
